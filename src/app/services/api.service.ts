@@ -25,4 +25,7 @@ export class ApiService {
   addcontact(contactbody:any){
     return this.http.post(this.baseurl,contactbody)
   }
+  deletecontact(contactid:any){
+    this.http.delete(`${this.baseurl}/${contactid}`)
+  }
 }
