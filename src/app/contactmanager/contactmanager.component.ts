@@ -33,4 +33,6 @@ export class ContactmanagerComponent implements OnInit{
       this.getallcontact()
     })
   }
+  
+
 }
